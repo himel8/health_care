@@ -12,3 +12,9 @@
     color: #fff;
     font-weight: bold;
 }
+
+@media screen  and (max-width: 680px) {
+    .custom-width{
+        width: 100%;
+    }
+}

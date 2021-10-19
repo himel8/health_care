@@ -1,16 +1,17 @@
 import { faLock, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import './Login.css'
 
 const Login = () => {
-    const {signInUsingGoogle, signInUsingGithub, handleSignIn, emailChange, passwordChange, error} = useAuth()
+    const {signInUsingGoogle, signInUsingGithub, handleSignIn, emailChange, passwordChange, error} = useAuth();
+
     return (
-        <div className='custom-login-bg py-5'>
+        <div className='custom-login-bg py-5 row'>
             <div className='mx-auto custom-width'>
-            <h1 className='custom-login-header'>My Hospital</h1>
+            <h1 className='custom-login-header'>Health Care</h1>
             <form onSubmit={handleSignIn} >
             <div className='bg-light p-5 d-flex flex-column justify-content-center'>
                 <h3 className='mb-3'>Sign in</h3>

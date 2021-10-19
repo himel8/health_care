@@ -13,6 +13,7 @@ import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import Services from './Pages/Home/Services/Services';
 import ServiceDetail from './Pages/Home/ServiceDetail/ServiceDetail';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -27,15 +28,15 @@ function App() {
           <Route path='/home'>
             <Home/>
           </Route>
-          <Route path='/service/:serviceId'>
+          <PrivateRoute path='/service/:serviceId'>
             <ServiceDetail/>
-          </Route>
+          </PrivateRoute>
           <Route path='/services'>
             <Services/>
           </Route>
-          <Route path='/about'>
+          <PrivateRoute path='/about'>
            <About/>
-          </Route>
+          </PrivateRoute>
           <Route path='/contact'>
             <Contact/>
           </Route>

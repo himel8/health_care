@@ -29,7 +29,7 @@
   background-color: #07294E !important;
   border: 1px solid #07294E !important;
   color: #FFCA2C !important;
-}:
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

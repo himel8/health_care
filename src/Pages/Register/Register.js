@@ -8,7 +8,7 @@ const Register = () => {
     return (
         <div className='custom-login-bg py-5'>
             <div className='mx-auto custom-width'>
-            <h1 className='custom-login-header'>My Hospital</h1>
+            <h1 className='custom-login-header'>Health Care</h1>
             <form onSubmit={handleRegister} className='bg-light p-5 pt-3 d-flex flex-column justify-content-center mb-5 mt-5'>
                 <h3 className='my-4'>Sign Up</h3>
                 
