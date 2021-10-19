@@ -1,0 +1,12 @@
+.custom-bg{
+    background-image: url(https://images.unsplash.com/photo-1625134673337-519d4d10b313?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1538&q=80);
+    padding: 200px 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.custom-text-size h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 70px;
+}

@@ -1,23 +1,57 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Navbar from './Pages/Navbar/Navbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
+import Footer from './Pages/Footer/Footer';
+import NotFound from './Pages/NotFound/NotFound';
+import Register from './Pages/Register/Register';
+import AuthProvider from './Context/AuthProvider';
+import About from './Pages/About/About';
+import Contact from './Pages/Contact/Contact';
+import Services from './Pages/Home/Services/Services';
+import ServiceDetail from './Pages/Home/ServiceDetail/ServiceDetail';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <AuthProvider>
+       <Router>
+        <Navbar/>
+        <Switch>
+          <Route exact path='/'>
+            <Home/>
+          </Route>
+          <Route path='/home'>
+            <Home/>
+          </Route>
+          <Route path='/service/:serviceId'>
+            <ServiceDetail/>
+          </Route>
+          <Route path='/services'>
+            <Services/>
+          </Route>
+          <Route path='/about'>
+           <About/>
+          </Route>
+          <Route path='/contact'>
+            <Contact/>
+          </Route>
+          <Route path='/login'>
+            <Login/>
+          </Route>
+          <Route path='/register'>
+            <Register/>
+          </Route>
+          <Route path='*'>
+            <NotFound/>
+          </Route>
+        </Switch>
+        <Footer/>
+       </Router>
+       </AuthProvider>
     </div>
   );
 }

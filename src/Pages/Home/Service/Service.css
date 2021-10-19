@@ -1,0 +1,14 @@
+.custom-service-bg{
+    background-color: #E3E8F7;
+}
+.custom-service-box{
+    transition: 0.1s;
+    border-radius: 20px;
+}
+.custom-service-box:hover{
+    transform: translateY(-10px);
+}
+.custom-service-img{
+    width: 150px;
+    height: 150px;
+}

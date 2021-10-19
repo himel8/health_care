@@ -1,0 +1,28 @@
+/* about toggle style  */
+.custom-flex{
+    flex-direction: row-reverse;
+}
+/* ---------
+   all custom header text style  
+-------------*/
+.custom-header-text{
+    position: relative;
+}
+.custom-header-text::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 41%;
+    background-color: #222;
+    width: 18%;
+    height: 2px;
+}
+.custom-header-text::after{
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    left: 42%;
+    background-color: #222;
+    width: 16%;
+    height: 2px;
+}
