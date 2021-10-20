@@ -1,3 +1,5 @@
+// firebase configeration
+
 const firebaseConfig = {
     apiKey: "AIzaSyBNxVf0KxxjaTJ5_tctbHMwge_OAqvuJTA",
     authDomain: "my-hospital-87f64.firebaseapp.com",

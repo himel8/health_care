@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+// fetch teams data
 
 const useTeam = () =>{
     const [teams, setTeams] = useState([]);
