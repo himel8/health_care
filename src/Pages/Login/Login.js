@@ -1,7 +1,7 @@
 import { faLock, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Link, useLocation, useHistory } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import './Login.css'
 
@@ -16,21 +16,21 @@ const Login = () => {
             <div className='bg-light p-5 d-flex flex-column justify-content-center'>
                 <h3 className='mb-3'>Sign in</h3>
                 <div>
-                    <button onClick={signInUsingGoogle} className='btn btn-primary me-3 px-5'> <i class="fab fa-google me-2"></i>Google</button>
-                    <button onClick={signInUsingGithub} className='btn btn-primary px-5'><i class="fab fa-github me-2"></i>Github</button>
+                    <button onClick={signInUsingGoogle} className='btn btn-primary me-3 px-5'> <i className="fab fa-google me-2"></i>Google</button>
+                    <button onClick={signInUsingGithub} className='btn btn-primary px-5'><i className="fab fa-github me-2"></i>Github</button>
                 </div>
                 
-                <div class="input-group my-3">
-                    <span class="input-group-text" id="basic-addon1">
+                <div className="input-group my-3">
+                    <span className="input-group-text" id="basic-addon1">
                     <FontAwesomeIcon icon={faUser} />
                     </span>
-                    <input onBlur={emailChange} type="text" class="form-control" placeholder="Username or Email" aria-label="Username" aria-describedby="basic-addon1"/>
+                    <input onBlur={emailChange} type="text" className="form-control" placeholder="Username or Email" aria-label="Username" aria-describedby="basic-addon1"/>
                 </div>
-                <div class="input-group my-3">
-                    <span class="input-group-text" id="basic-addon1">
+                <div className="input-group my-3">
+                    <span className="input-group-text" id="basic-addon1">
                     <FontAwesomeIcon icon={faLock} />
                     </span>
-                    <input onBlur={passwordChange} type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1"/>
+                    <input onBlur={passwordChange} type="text" className="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1"/>
                 </div>
                 <p className='text-primary text-end'><small>Forgot your password?</small></p>
                 <p className='text-danger text-start'>{error}</p>

@@ -16,28 +16,28 @@ const WhyUs = () => {
             <h1 className='custom-whyus-heding'>We are Achieve the Success of Treatment</h1>
             <p className='my-4 custom-whyus-description'>Clinical excellence must be the priority for any health care service provider. SQUARE Hospital ensures the best healthcare service comprise of professional (clinical) service excellence with outstanding personal service.</p>
             <div>
-            <div class="row">
-                <div class="col-6">
+            <div className="row">
+                <div className="col-6">
                     <div className='d-flex justify-content-start align-items-center'>
                         <img className='custom-whyus-img me-3' src="https://i.ibb.co/BcTvDCW/doctor.png" alt="" />
                         <h5>Specialist Doctor</h5>
                     </div>
                 </div>
-                <div class="col-6">
+                <div className="col-6">
                 <div className='d-flex justify-content-start align-items-center'>
                         <img className='custom-whyus-img me-3' src="https://i.ibb.co/tq1Rg1z/pills.png" alt="" />
                         <h5>Certified Medicine</h5>
                     </div>
                 </div>
             </div>
-            <div class="row mt-3">
-                <div class="col-6">
+            <div className="row mt-3">
+                <div className="col-6">
                     <div className='d-flex justify-content-start align-items-center'>
                         <img className='custom-whyus-img me-3' src="https://i.ibb.co/d5SQQ1S/ambulance.png" alt="" />
                         <h5>Emergency Cases</h5>
                     </div>
                 </div>
-                <div class="col-6">
+                <div className="col-6">
                 <div className='d-flex justify-content-start align-items-center'>
                         <img className='custom-whyus-img me-3' src="https://i.ibb.co/CbcFDtD/support.png" alt="" />
                         <h5>24x7 Support</h5>

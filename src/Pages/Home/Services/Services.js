@@ -14,7 +14,7 @@ const Services = () => {
                     <p className="text-muted">It has survived not only five centuries, but also the leap into electronic<br/> typesetting, remaining essentially unchanged.</p>
                 </div>
             </div>
-            <div class="row g-3 mb-5">
+            <div className="row g-3 mb-5">
                 {
                     services.map(service => <Service key={service.id} service={service}/>)
                 }
