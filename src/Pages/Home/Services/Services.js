@@ -11,7 +11,7 @@ const Services = () => {
                 {/* services header */}
                 <div className="col">
                     <h5 className="text-muted">Services</h5>
-                    <h1 className='custom-whyus-heding'>Our Departments</h1>
+                    <h1 className='custom-whyus-heding text-sm-start text-md-center'>Our Departments</h1>
                     <p className="text-muted">It has survived not only five centuries, but also the leap into electronic<br/> typesetting, remaining essentially unchanged.</p>
                 </div>
             </div>

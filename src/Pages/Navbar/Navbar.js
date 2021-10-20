@@ -41,7 +41,7 @@ const Navbar = () => {
                     <NavLink className="nav-link active" to="/contact" activeStyle={navStyle}>Contact</NavLink>
                   </li>
                 </ul>
-                <form className="d-flex">
+                <form className="d-flex justify-content-center">
                   {/* dynamic button & display name  */}
 
                   {user.email?
