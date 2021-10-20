@@ -23,14 +23,14 @@ const WhyUs = () => {
                 <div className="col-6">
                     <div className='d-flex justify-content-start align-items-center'>
                         <img className='custom-whyus-img me-3' src="https://i.ibb.co/BcTvDCW/doctor.png" alt="" />
-                        <h5>Specialist Doctor</h5>
+                        <h6>Specialist Doctor</h6>
                     </div>
                 </div>
                 {/* second icon box */}
                 <div className="col-6">
                 <div className='d-flex justify-content-start align-items-center'>
                         <img className='custom-whyus-img me-3' src="https://i.ibb.co/tq1Rg1z/pills.png" alt="" />
-                        <h5>Certified Medicine</h5>
+                        <h6>Certified Medicine</h6>
                     </div>
                 </div>
             </div>
@@ -39,14 +39,14 @@ const WhyUs = () => {
                 <div className="col-6">
                     <div className='d-flex justify-content-start align-items-center'>
                         <img className='custom-whyus-img me-3' src="https://i.ibb.co/d5SQQ1S/ambulance.png" alt="" />
-                        <h5>Emergency Cases</h5>
+                        <h6>Emergency Cases</h6>
                     </div>
                 </div>
                 {/* forth icon box */}
                 <div className="col-6">
                 <div className='d-flex justify-content-start align-items-center'>
                         <img className='custom-whyus-img me-3' src="https://i.ibb.co/CbcFDtD/support.png" alt="" />
-                        <h5>24x7 Support</h5>
+                        <h6>24x7 Support</h6>
                     </div>
                 </div>
             </div>
