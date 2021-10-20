@@ -11,7 +11,7 @@ const Contact = () => {
                 <h1 className='mb-5 custom-header-text'>Contact</h1>
                 <div className='row'>
                     {/* contact first column  */}
-                    <div className='col-md-7 col-xs-12 col-sm-12 text-start'>
+                    <div className='col-md-7 col-xs-12 col-sm-12 mb-5 text-start'>
                         <h4>Send a Message</h4>
                         <from className=''>
                             <div className="from-group mb-3" controlId="formBasicEmail">
@@ -29,7 +29,7 @@ const Contact = () => {
                         </from>
                     </div>
                     {/* contact second column  */}
-                    <div className='col-md-4 col-xs-12 col-sm-12 ms-5 mb-5 '>
+                    <div className='col-md-4 col-xs-12 col-sm-12 ms-5 mb-5'>
                     <h4 className='text-start ms-5'>Contact Info</h4>
                     {/* contact info component  */}
                     <ContactInfo item1='Phone: +780 123 452' item2= 'Mail: contact@eduskill.com' icon={faPhone}>Contact Details

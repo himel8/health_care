@@ -18,9 +18,9 @@ const Login = () => {
                 <h3 className='mb-3'>Sign in</h3>
                 <div>
                     {/* google sign In */}
-                    <button onClick={signInUsingGoogle} className='btn btn-primary me-3 px-5'> <i className="fab fa-google me-2"></i>Google</button>
+                    <button onClick={signInUsingGoogle} className='btn btn-primary ms-3 me-3 px-5 mb-3'> <i className="fab fa-google me-2"></i>Google</button>
                     {/* github sign In */}
-                    <button onClick={signInUsingGithub} className='btn btn-primary px-5'><i className="fab fa-github me-2"></i>Github</button>
+                    <button onClick={signInUsingGithub} className='btn btn-primary mb-3 px-5'><i className="fab fa-github me-2"></i>Github</button>
                 </div>
                 {/* email box input */}
                 <div className="input-group my-3">
