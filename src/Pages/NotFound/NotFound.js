@@ -8,6 +8,7 @@ const NotFound = () => {
            <div>
            <img className='custom-404-img' src="https://www.boostability.com/content/wp-content/uploads/sites/2/2012/10/BOOST_BLOG_IMAGE_RB_SET_10_404_PAGE_1200x628px_v1_3.jpg" alt="" />
            </div>
+           {/* return home button */}
            <Link to='/home'>
             <button className='btn btn-primary px-5 fw-bold'>Return Home</button>
            </Link> 

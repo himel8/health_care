@@ -8,6 +8,7 @@ const Services = () => {
         <div className='custom-service-bg py-5'>
             <div className='container'>
             <div className="row mb-2">
+                {/* services header */}
                 <div className="col">
                     <h5 className="text-muted">Services</h5>
                     <h1 className='custom-whyus-heding'>Our Departments</h1>
@@ -15,6 +16,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="row g-3 mb-5">
+                {/* mapping products */}
                 {
                     services.map(service => <Service key={service.id} service={service}/>)
                 }

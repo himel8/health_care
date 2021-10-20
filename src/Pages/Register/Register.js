@@ -8,22 +8,25 @@ const Register = () => {
     return (
         <div className='custom-login-bg py-5'>
             <div className='mx-auto custom-width'>
+                {/* title  */}
             <h1 className='custom-login-header'>Health Care</h1>
             <form onSubmit={handleRegister} className='bg-light p-5 pt-3 d-flex flex-column justify-content-center mb-5 mt-5'>
                 <h3 className='my-4'>Sign Up</h3>
-                
+                {/* display name input */}
                 <div className="input-group my-2 mt-3">
                     <span className="input-group-text" id="basic-addon1">
                     <FontAwesomeIcon icon={faUser} />
                     </span>
                     <input onBlur={nameChange} type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
                 </div>
+                {/* email  input */}
                 <div className="input-group my-2">
                     <span className="input-group-text" id="basic-addon1">
                     <FontAwesomeIcon icon={faEnvelope} />
                     </span>
                     <input onBlur={emailChange}  type="text" className="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1" required/>
                 </div>
+                {/* password  input */}
                 <div className="input-group my-2 mb-3">
                     <span className="input-group-text" id="basic-addon1">
                     <FontAwesomeIcon icon={faLock} />
@@ -31,6 +34,7 @@ const Register = () => {
                     <input onBlur={passwordChange} type="text" className="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1" required/>
                 </div>
                 <p className='text-danger text-start'>{error}</p>
+                {/* sign up button  */}
                 <button className='btn btn-primary me-3 fw-bold py-2'>Sign Up</button>
             </form>
             </div>

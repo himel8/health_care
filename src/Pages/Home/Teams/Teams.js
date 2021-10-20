@@ -10,6 +10,7 @@ const Teams = () => {
                 <h1 className='custom-whyus-heding'>Meet Our Doctors</h1>
             </div>
             <div className="row g-3 mb-5">
+                {/* team mapping */}
                 {
                     teams.map(team => <Team key={team.key} team={team}/>)
                 }

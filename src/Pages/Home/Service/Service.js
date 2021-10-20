@@ -6,9 +6,12 @@ const Service = ({service}) => {
     
     const {id, name, img, short_description} = service;
     return (
+        // servic box 
             <div className="col-md-4">
                 <div className="card h-100 px-2 pt-5 pb-2 custom-service-box">
+                    {/* image */}
                     <img src={img} className="mx-auto custom-service-img card-img-top" alt="..."/>
+                    {/* body */}
                     <div className="card-body">
                         <h5 className="card-title">{name}</h5>
                         <h6 className="card-text text-muted">{short_description}</h6>
